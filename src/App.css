@@ -1,0 +1,57 @@
+.searchContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+table {
+  margin: auto;
+}
+
+.tableRow {
+  background-color: gray;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: none;
+  display: block;
+}
+
+.active-button {
+  background-color: white;
+  color: black;
+  width: 84%;
+  border-radius: 4px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.inactive-button {
+  background-color: gray;
+  color: white;
+  width: 84%;
+  border-radius: 4px;
+  border: none;
+  padding: 10px 20px;
+  cursor: not-allowed;
+}
+
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
